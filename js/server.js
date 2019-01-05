@@ -36,7 +36,7 @@ var Server = function(config, callback) {
 				return next();
 			}
 			console.log(err.message);
-			res.status(403).send("This device is not allowed to access your mirror. <br> Please check your config.js or config.js.sample to change this.");
+			res.status(403).send("This device is not allowed to access your mirror. <br> Please check your config.js to change this.");
 		});
 	});
 	app.use(helmet());

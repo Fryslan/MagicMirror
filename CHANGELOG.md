@@ -284,7 +284,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
 - Add `anytime` group for Compliments module.
 - Compliments module can use remoteFile without default daytime arrays defined.
-- Installer: Use init config.js from config.js.sample.
+- Installer: Use init config.js from config.js.
 - Switched out `rrule` package for `rrule-alt` and fixes in `ical.js` in order to fix calendar issues. ([#565](https://github.com/MichMich/MagicMirror/issues/565))
 - Make mouse events pass through the region fullscreen_above to modules below.
 - Scaled the splash screen down to make it a bit more subtle.

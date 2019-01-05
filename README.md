@@ -121,7 +121,7 @@ The following wiki links are helpful for the initial configuration of your Magic
 
 ### General
 
-1. Copy `/home/pi/MagicMirror/config/config.js.sample` to `/home/pi/MagicMirror/config/config.js`. \
+1. Copy `/home/pi/MagicMirror/config/config.js` to `/home/pi/MagicMirror/config/config.js`. \
    **Note:** If you used the installer script. This step is already done for you.
 
 2. Modify your required settings. \
