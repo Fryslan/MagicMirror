@@ -13,14 +13,14 @@ Module.register("newsfeed",{
 	defaults: {
 		feeds: [
 			{
-				title: "New York Times",
-				url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+				title: "NU.nl",
+				url: "http://www.nu.nl/rss/Algemeen",
 				encoding: "UTF-8" //ISO-8859-1
 			}
 		],
 		showSourceTitle: true,
 		showPublishDate: true,
-		showDescription: false,
+		showDescription: true,
 		wrapTitle: true,
 		wrapDescription: true,
 		truncDescription: true,
